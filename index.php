@@ -15,7 +15,7 @@
 
 <?php } else { 
 $contact_id = get_page_by_title( 'Contact Emma' )->ID;
-$legal_id = get_page_by_title( 'Legal' )->ID;
+$legal_id = get_page_by_title( 'Legal and Privacy' )->ID;
 ?>
 
 <div id="secondrow">
@@ -47,7 +47,7 @@ $legal_id = get_page_by_title( 'Legal' )->ID;
 <div class="sociallinkblock"><a href="<?php echo get_site_url();?>?p=<?php echo $contact_id;?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/DD_Social_Media_Icon_Set_65654/email_mod.png" width="80" height="80" alt="Contact icon"/><br>Contact</a></div>
 </div>
 <div class="sociallinkblock"></div>
-<div class="sociallinkblock" style="font-size:50%;">Copyright &copy; Emma Bentley, 2011-2017. All rights reserved.<a href="<?php echo get_site_url();?>?p=<?php echo $legal_id;?>">Legal notices</a>.</div>
+<div class="sociallinkblock" style="font-size:50%;">Copyright &copy; Emma Bentley, 2011-2017. All rights reserved.<a href="<?php echo get_site_url();?>?p=<?php echo $legal_id;?>">Legal and privacy notices</a>.</div>
 </div>
 
 </div>
@@ -71,4 +71,5 @@ if (is_active_sidebar( 'front-area-1' ) ) {
 
 <div style="clear:both;"></div>
 <?php get_footer(); ?>
+
 
