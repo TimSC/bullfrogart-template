@@ -31,8 +31,8 @@ $legal_id = get_page_by_title( 'Legal and Privacy' )->ID;
 <div id="TRRfirst">
 <div id="TRRfirstRight"></div>
 <div style="float:left;">
-<div class="sociallinkblock"><a href="https://www.etsy.com/uk/shop/bullfrogart"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/DD_Social_Media_Icon_Set_65654/etsy.png" width="80" height="80" alt="Etsy icon"/><br>Etsy</a></div>
 <div class="sociallinkblock"><a href="http://stores.ebay.co.uk/bullfrogart/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/DD_Social_Media_Icon_Set_65654/ebay.png" width="80" height="80" alt="Ebay icon"/><br>Ebay</a></div>
+<div class="sociallinkblock"><a href="https://www.flickr.com/photos/95754753@N05"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/DD_Social_Media_Icon_Set_65654/yahoo.png" width="80" height="80" alt="Flickr icon"/><br>Flickr</a></div>
 </div>
 </div>
 
@@ -43,7 +43,7 @@ $legal_id = get_page_by_title( 'Legal and Privacy' )->ID;
 </div>
 
 <div style="float:left;">
-<div class="sociallinkblock"><a href="https://www.flickr.com/photos/95754753@N05"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/DD_Social_Media_Icon_Set_65654/yahoo.png" width="80" height="80" alt="Flickr icon"/><br>Flickr</a></div>
+
 <div class="sociallinkblock"><a href="<?php echo get_site_url();?>?p=<?php echo $contact_id;?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/DD_Social_Media_Icon_Set_65654/email_mod.png" width="80" height="80" alt="Contact icon"/><br>Contact</a></div>
 </div>
 <div class="sociallinkblock"></div>

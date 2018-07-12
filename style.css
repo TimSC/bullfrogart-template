@@ -45,9 +45,9 @@ p {
     border-width: 0 0 0 7px;	
 	float: right;
 	width: 400px;
-	height: 300px;
+	height: 350px;
 	background-image: url("assets/images/catmod300.jpg");
-	background-size: 222px 300px;
+	background-size: 222px 350px;
 	background-repeat: no-repeat;
 }
 
@@ -65,9 +65,9 @@ p {
     border-width: 0 0 0 7px;	
 	float: right;
 	width: 400px;
-	height: 300px;
+	height: 350px;
 	background-image: url("assets/images/catmod300.jpg");
-	background-size: 222px 300px;
+	background-size: 222px 350px;
 	background-repeat: no-repeat;
 }
 
@@ -185,4 +185,5 @@ p {
 .title-text {
 	display: none;
 }
+
 
